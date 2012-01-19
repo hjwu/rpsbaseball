@@ -1,0 +1,30 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>Guess Ball</title>
+	<script type="text/javascript" src="rock-paper-scissor3.js"></script>
+	<script type="text/javascript" src="baseball.js"></script>
+	<link rel="stylesheet" href="rock-paper-scissor3.css" type="text/css"/>	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://github.com/malsup/blockui/raw/master/jquery.blockUI.js?v2.31"></script>
+	<link rel="shortcut icon" type="image/png" href="icon/rpsbaseball.png" />
+</head>
+<body onLoad="init()">
+<div id="title">Guess Ball</div>
+<div id="game">
+	<div id="nav"><canvas id="broadcast" width="1024" height="50"></canvas></div>
+	<div id="gameShow">
+		<div id="PCCard"><img id="pc"><img id="pc[0]" ><img id="pc[1]" ><img id="pc[2]" ><img id="pc[3]" ></div>
+		<div id="cardZone"><img id="card[0]" ><img id="card[1]" ><img id="card[2]" ><img id="card[3]" ><img id="card[4]" ><img id="card[5]" ><img id="card[6]" ><img id="card[7]" ><img id="card[8]" ></div>
+		<div id="tableZone" style="display:none">
+			<div id="pcListAll"><img id="PC_result0" ><img id="PC_result1" ><img id="PC_result2" ><img id="PC_result3" ></div>
+			<div id="usrListAll"><img id="user_result0" ><img id="user_result1" ><img id="user_result2" ><img id="user_result3" ></div>		
+		</div>
+		<div id="userCard"><img id="user"><img id="usr[0]" ><img id="usr[1]" ><img id="usr[2]" ><img id="usr[3]" ></div>
+	</div>
+</div>
+<div id="footer"><img src="http://jsygamela.com/logo/footer.png"></div> 
+<div id="copyright">Copyright © 2011 Jhong Sheng Yuan Technology Co., Ltd. All rights reserved.</div>
+</body>
+</html>

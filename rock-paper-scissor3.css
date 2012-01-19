@@ -1,0 +1,13 @@
+html{text-align:center;background-color:black;}
+img{margin:5px 10px;}
+body{position:relative;margin:0 auto;padding-top:30px; width:1024px;}
+div#title{position:relative;color:white;font-size:30pt;}
+div#game{height:728px;position:relative;}
+div#nav{padding-top:50px;position:relative;}
+div#gameShow{position:relative; margin-left:90px; height:550px; }
+div#PCcard{position:relative; margin:20px auto; }
+div#cardZone{position:relative;margin:0 auto; padding:50px 0; height:110px; }
+div#userCard{position:relative; margin:20px auto;}
+div#tableZone{position:relative;margin:0 auto; padding:5px 0; height:200px; }
+div#footer{clear:both; margin-top:20px; position:relative;text-align:center;}
+div#copyright{color:white;font-size:12pt;}
